@@ -15,3 +15,32 @@
     font-weight: lighter;
 }
 
+.end-banner {
+    background-color: black;
+    padding: 80px 0px;
+}
+.end-banner img {
+    width: 700px;
+}
+
+.version-banner {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 60%), url(../../images/cafe.jpg);
+    color: white;
+    padding: 200px 0px;
+    background-position: right;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.event-banner {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 60%), url(../../images/event.png);
+    color: white;
+    padding: 200px 0px;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20px;
+}
